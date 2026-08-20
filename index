@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Термінал ОТК — Контроль Якості Стікерів</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f4f5f7; }
+    </style>
+</head>
+<body class="p-4 max-w-md mx-auto min-h-screen flex flex-col justify-between">
+
+    <div>
+        <!-- HEADER -->
+        <header class="text-center my-8">
+            <span class="text-xs font-bold tracking-widest text-gray-400 uppercase">Термінал ОТК</span>
+            <h1 class="text-2xl font-extrabold text-gray-900 mt-1">Контроль Якості Стікерів</h1>
+            <p class="text-xs text-gray-500 mt-2">Оберіть тип стікера для перевірки критеріїв дефектів</p>
+        </header>
+
+        <!-- MENU LIST -->
+        <div class="space-y-4">
+            
+            <!-- Посилання 1 -->
+            <a href="ce_qr.html" class="w-full bg-white p-5 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md active:scale-98 transition flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl">
+                        🏷️
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-gray-900 group-hover:text-blue-600 transition">1. Стікери СЄ + QR</h2>
+                        <p class="text-xs text-gray-400 mt-0.5">Таблиця 1 • 4 зони перевірки</p>
+                    </div>
+                </div>
+                <span class="text-gray-300 text-xl font-bold">❯</span>
+            </a>
+
+            <!-- Посилання 2 -->
+            <a href="barcode.html" class="w-full bg-white p-5 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md active:scale-98 transition flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl">
+                        📊
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-gray-900 group-hover:text-emerald-600 transition">2. Стікери Bar-Code</h2>
+                        <p class="text-xs text-gray-400 mt-0.5">Таблиця 2 • 3 зони перевірки</p>
+                    </div>
+                </div>
+                <span class="text-gray-300 text-xl font-bold">❯</span>
+            </a>
+
+            <!-- Посилання 3 -->
+            <a href="qr.html" class="w-full bg-white p-5 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md active:scale-98 transition flex items-center justify-between group">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-2xl">
+                        🔲
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-gray-900 group-hover:text-purple-600 transition">3. Стікери QR</h2>
+                        <p class="text-xs text-gray-400 mt-0.5">Таблиця 3 • В розробці</p>
+                    </div>
+                </div>
+                <span class="text-gray-300 text-xl font-bold">❯</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-4 border-t border-gray-200 mt-6">
+        <p class="text-[11px] text-gray-400">Стандарт якості ОТК v1.0</p>
+    </footer>
+
+</body>
+</html>
